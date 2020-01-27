@@ -1,0 +1,102 @@
+body {
+  background-color: white;
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+nav {
+  background-color: rgba(20,20,20,0.3);
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  text-align: left;
+}
+
+nav li {
+  display: inline;
+  color: white;
+  font-weight: 300;
+  font-family: Helvetica;
+  text-transform:uppercase;
+  font-size: 14px;
+  padding: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav li:hover {
+  color: gray;
+}
+
+nav li:active {
+  color: blue;
+}
+
+#banner {
+  background-image: url('http://images2.fanpop.com/images/photos/7800000/Amazing-Nature-Wallpapers-national-geographic-7896279-1280-960.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 500px;
+  max-width: 800px;
+  height: 500px;
+  background-position: top center;
+  margin-bottom: 20px;
+}
+
+#banner .content h1 {
+  border: 5px solid white;
+  position: relative;
+  top: 100px;
+  width: 450px;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.5);(0,0,0);
+  text-align: center;
+}
+
+#story {
+  background-image: url('http://cdn.designbump.com/wp-content/uploads/2016/01/National-Geographic-Wallpaper-03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 500px;
+  max-width: 800px;
+  height: 500px;
+  background-position: bottom center;
+  margin-bottom: 50px;
+}
+
+#story .content h1 {
+  border: 5px solid white;
+  position: relative;
+  top: 150px;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+  background-color: rgba(255, 233, 0, 0.5);(0,0,0);
+  text-align: center;
+}
+
+.footer-container {
+
+
+}
+
+.footer-container span {
+  padding:;
+  font-size:;
+  color: black;
+}
+
+.social-media {
+  display: ;
+}
+
+.social-media span:hover {
+  background-color: beige;
+  font-size: 20px;
+}
